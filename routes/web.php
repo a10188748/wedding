@@ -17,7 +17,8 @@ Route::get('/about', 'AboutController@index');
 
 Route::get('/events_1', 'EventsController@wedding');
 
-Route::get('/events_2', 'EventsController@baby');
+
+Route::get('/events_5', 'EventsController@baby');
 
 Route::get('/events_3', 'EventsController@party');
 

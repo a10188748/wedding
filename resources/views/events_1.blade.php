@@ -12,7 +12,13 @@
 	<!--Events --> 
 		<div class="events-agileits-w3layouts">
 		<div class="container event_wedding">
-		<h2 class="heading-agileinfo">婚禮<span>文案簡單介紹</span></h2>
+		<h2 class="heading-agileinfo">婚禮紀錄
+		<span>婚禮故事，我們攝影師想呈現出不只是新人二人畫面</span>
+		<span>而是更多人與人之間的互動，所構成的回憶故事錄。</span>
+		<span>然而"婚攝也是新人的另一雙眼"</span>
+		<span>因此我們將透過鏡頭與思緒</span>
+		<span>來為您完整的記錄最感動的時刻。</span>
+		</h2>
 		@foreach ($weddings->chunk(3) as $chunk)
 		<div class="popular-grids">
 			@foreach ($chunk as $wedding)

@@ -64,27 +64,27 @@
 				<ul id="sb-slider" class="sb-slider">
 					<li>
 						<a target="_blank"><img src="banner/images/111.jpg" alt="image1"/></a>
-						<div class="sb-description">
+						<!-- <div class="sb-description">
 							<h3>寶寶ＸＸ</h3>
-						</div>
+						</div> -->
 					</li>
 					<li>
 						<a target="_blank"><img src="banner/images/111.jpg" alt="image2"/></a>
-						<div class="sb-description">
+						<!-- <div class="sb-description">
 							<h3>寶寶ＸＸ</h3>
-						</div>
+						</div> -->
 					</li>
 					<li>
 						<a target="_blank"><img src="banner/images/111.jpg" alt="image1"/></a>
-						<div class="sb-description">
+						<!-- <div class="sb-description">
 							<h3>寶寶ＸＸ</h3>
-						</div>
+						</div> -->
 					</li>
 					<li>
 						<a target="_blank"><img src="banner/images/111.jpg" alt="image1"/></a>
-						<div class="sb-description" data-toggle="modal" data-target="#myModal4">
+						<!-- <div class="sb-description" data-toggle="modal" data-target="#myModal4">
 							<h3>寶寶ＸＸ</h3>
-						</div>
+						</div> -->
 					</li>
 				</ul>
 

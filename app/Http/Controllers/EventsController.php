@@ -57,10 +57,16 @@ class EventsController extends Controller
 					return null;
 				break;
 		}
-
+// print_r($variable);exit;
 		foreach ($variable as $key => $value) {
-			 $value->img_path = explode("\/",str_replace('["','',str_replace('"]','',$value->img_path)));
-			 $variable[$key]->img_path='/storage/' . $value->img_path[0] . '/' . $value->img_path[1].'/'.$value->img_path[2];
+			if($value->img_path != ""){
+				$variable[$key]->img_path = '/storage/' . $value->img_path;
+			
+			}
+			else
+			{
+				$variable[$key]->img_path = "";
+			}
 		}
 		return $variable;
 	}

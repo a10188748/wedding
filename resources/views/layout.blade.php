@@ -32,7 +32,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="/">Chang 寫真. 影像</a></h1>
+						<h1><a class="navbar-brand" href="/">阿昌幸福影像工坊</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -42,11 +42,14 @@
 							<li><a class="hvr-sweep-to-right" href="/">首頁</a></li>
 							<li><a class="hvr-sweep-to-right" href="about">關於我</a></li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">成果展<b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">WORK作品總覽<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a class="hvr-sweep-to-right" href="events_1">婚禮</a></li>
-									<li><a class="hvr-sweep-to-right" href="events_2">寶寶</a></li>
-									<li><a class="hvr-sweep-to-right" href="events_3">派對慶生</a></li>
+									<li><a class="hvr-sweep-to-right" href="events_1">婚禮紀錄</a></li>
+
+									<li><a class="hvr-sweep-to-right" href="events_3">自助婚紗</a></li>
+									<li><a class="hvr-sweep-to-right" href="events_3">孕之寫真</a></li>	<li><a class="hvr-sweep-to-right" href="events_5">嬰兒、親子、兒童寫真</a></li>
+									
+
 								</ul>
 							</li>
 							<!-- <li class="dropdown">
