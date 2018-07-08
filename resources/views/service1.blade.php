@@ -60,126 +60,97 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 title">
 			<h2 class="heading-agileinfo">一、方案價格</h2>
 		</div>
-		<div class="col-lg-3 col-md-3 col-sm-12 block" style="height:150px;text-align: center;padding-top: 10px" >
-			<div class="program" style="border:2px #BC9B5D solid;height: 100%;">
-				<div style="height: 100%;width: 10%;display:inline-block;vertical-align:top">
-					<div style="height: 100%;padding-top: 10px">
-						<h2>A</h2>
-					</div>
-				</div>
-				<div style="height: 100%;width: 80%;display:inline-block;">
-					<div style="height: 75%; ">
-						<div style="padding-top:10px">
-							<span>單宴會 / 單儀式</span>
+		<section class="case ">
+			<div class="col-lg-3 col-md-3 col-sm-12" >
+				<article class>
+					<header>
+						<div class="header">
+							<span><h4>Ａ.單宴會 / 單儀式 </h4></span>
+						</div> 
+					</header>
+					<hr>
+					<section>
+						<div class="section">
+							<span>NT 10,000</span>
 						</div>
-					</div>
-					<div style="height: 5%;">
-						<hr class="style-seven">
-					</div>
-					<div style="height: 20%;">
-						<span><h3>NT10,000元</h3></span>
-					</div>
-				</div>
+					</section>
+					<footer>
+					</footer>
+				</article>
+		
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-12 block" style="height:150px;text-align: center;padding-top: 10px" >
-			<div class="program" style="border:2px #BC9B5D solid;height: 100%;">
-				<div style="height: 100%;width: 10%;display:inline-block;vertical-align:top">
-					<div style="height: 100%;padding-top: 10px">
-						<h2>B</h2>
-					</div>
-				</div>
-				<div style="height: 100%;width: 80%;display:inline-block;">
-					<div style="height: 75%; ">
-						<div style="padding-top:10px">
-							<span>早儀式</span>
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				<article class>
+					<header>
+						<div class="header">
+							<span><h4>Ｂ.早儀式</h4></span><br>
+							<span><h4>+</h4></span><br>
+							<span><h4>午宴</h4></span>
 						</div>
-						<div style="padding-top:10px">
-							<span> + </span>
+					</header>
+					<hr>
+					<section>
+						<div class="section">
+							<span>NT 13,800</span>
 						</div>
-						<div style="padding-top:10px">
-							<span>午宴</span>
-						</div>
-					</div>
-					<div style="height: 5%;">
-						<hr class="style-seven">
-					</div>
-					<div style="height: 20%;">
-						
-						<span><h3>NT 13,800元</h3></span>
-					</div>
-				</div>
+					</section>
+					<footer>
+					</footer>
+				</article>
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-12 block" style="height:150px;text-align: center;padding-top: 10px" >
-			<div class="program" style="border:2px #BC9B5D solid;height: 100%;">
-				<div style="height: 100%;width: 10%;display:inline-block;vertical-align:top">
-					<div style="height: 100%;padding-top: 10px">
-						<h2>C</h2>
-					</div>
-				</div>
-				<div style="height: 100%;width: 80%;display:inline-block;">
-					<div style="height: 75%; ">
-						<div style="padding-top:10px">
-							<span>早儀式</span>
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				<article class>
+					<header>
+						<div class="header">
+							<span><h4>Ｃ.早儀式</h4></span><br>
+							<span><h4>+</h4></span><br>
+							<span><h4>晚宴</h4></span>
 						</div>
-						<div style="padding-top:10px">
-							<span> + </span>
+					</header>
+					<hr>
+					<section>
+						<div class="section">
+							<span>NT 15,000</span>
 						</div>
-						<div style="padding-top:10px">
-							<span>晚宴</span>
-						</div>
-					</div>
-					<div style="height: 5%;">
-						<hr class="style-seven">
-					</div>
-					<div style="height: 20%;">
-						
-						<span><h3>NT 15,000元</h3></span>
-					</div>
-				</div>
+					</section>
+					<footer>
+					</footer>
+				</article>
 			</div>
-		</div>
-		<div class="col-lg-3 col-md-3 col-sm-12 block" style="height:150px;text-align: center; padding-top: 10px" >
-			<div class="program" style="border:2px #BC9B5D solid;height: 100%;">
-				<div style="height: 100%;width: 10%;display:inline-block;vertical-align:top;">
-					<div style="height: 100%;padding-top: 10px;">
-						<h2>D</h2>
-					</div>
-				</div>
-				<div style="height: 100%;width: 80%;display:inline-block;">
-					<div style="height: 75%; ">
-						<div style="padding-top:10px">
-							<span style="color:#DA192C"><h4>訂婚歸寧</h4></span>
+			<div class="col-lg-3 col-md-3 col-sm-12">
+				<article class>
+					<header>
+						<div class="header">
+						<span><h4>Ｄ.訂婚歸寧</h4></span><br>
+						<span><h4>+</h4></span><br>
+						<span><h4>迎娶結婚宴兩天包套</h4></span>
 						</div>
-						<div style="padding-top:10px">
-							<span style="color:#DA192C"><h4> + </h4></span>
+					</header>
+					<hr>
+					<section>
+						<div class="section">
+							<span>NT 25,000</span>
 						</div>
-						<div style="padding-top:10px">
-							<span style="color:#DA192C"><h4>迎娶結婚宴兩天包套</h4></span>
-						</div>
-					</div>
-					<div style="height: 5%;">
-						<hr class="style-seven">
-					</div>
-					<div style="height: 20%;">
-						
-						<span><h3>NT 2,5000元</h3></span>
-					</div>
-				</div>
+					</section>
+					<footer>
+					</footer>
+				</article>
 			</div>
-		</div>
+		</section>
 		<div class="col-lg-12 col-md-12 col-sm-12 span" style="padding-top: 20px;">
 			<!-- <h3>備註：</h3> -->
-			<h5>備註：</h5>
+			<h5>- 車馬費 ＋</h5>
 			<p style="padding:10px 0 0 30px;">
-				<span>＋ 南部免車馬費，中部(台中、彰化、雲林、南投)車馬費2000元，北部(台北、桃園、新竹、苗栗)車馬費3000元 ＋</span><br>
-				<span>＋ 中北部新人需提供住宿費用或由新人替攝影師安排住宿地方 ＋</span><br>
-				<span>＋ 多人費用 ＋ </span><br>
-				<p style="padding:0 0 0 60px;">
-					<span>1.燈光助理      NT1,000元</span><br>
-					<span>2.第二(副)攝影師 NT3,000元 / NT6,000元(半天/全天)</span>
-				</p>
+				<span>南部免車馬費</span><br>
+				<span>中部(台中、彰化、雲林、南投)車馬費2000元</span><br>
+				<span>北部(台北、桃園、新竹、苗栗)車馬費3000元</span>
+			</p>
+			<br>
+			<h5>- 其他費用 ＋</h5>
+			<p style="padding:10px 0 0 30px;">
+				<span>中北部新人需提供住宿費用或由新人替攝影師安排住宿地方</span><br>
+				<span>燈光助理  NT1,000元</span><br>
+				<span>第二(副)攝影師  NT3,000元 / NT6,000元(半天/全天)</span><br>
 			</p>
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12 title">
@@ -222,25 +193,4 @@
 		
 	</div>
 </div>
-<style>
-	hr.style-seven {
-		margin:0px auto;
-		width: 80%;
-  /*  height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;*/
-}
-/*hr.style-seven:before { 
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}*/
-</style>
 @endsection

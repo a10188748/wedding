@@ -26,7 +26,12 @@
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header page-scroll">
-						
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Events</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 						<h1><a class="navbar-brand" href="/">阿昌幸福影像工坊</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->

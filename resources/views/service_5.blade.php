@@ -1,5 +1,5 @@
 @extends('layout')
-@section('title', '自助婚紗')
+@section('title', '嬰兒、親子、兒童寫真')
 @section('require')
     	<link rel="stylesheet" type="text/css" href="banner/css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="banner/css/slicebox.css" />
@@ -12,11 +12,9 @@
 @section('content')
 <div class="container"> 
 	<div class="copywriting">
-		<h2 class="heading-agileinfo">自助婚紗
-		<span>何為自助婚紗-自己的婚紗自己決定</span>
-		<span>新人可以與攝影師面對面溝通自己想要拍攝的畫面以及各式不同的題材，例如：唯美風格與雄偉大景風格或俏皮逗趣等風格...</span>
-		<span>我們會依照需求規劃專屬的拍攝行程或風格，量身打造屬於自己的婚紗。</span>
-		<span>這也自助婚紗與傳統婚紗公司最大的不同。</span>
+		<h2 class="heading-agileinfo">嬰兒、親子、兒童寫真
+		<span>孩子永遠是父母最甜蜜的負擔。剛出生的寶寶是那麼地嬌弱、那麼地沉靜，整個世界彷彿都隨著寶寶的呼吸起伏...但隨著時間流逝，嬰兒成長過程，不會為誰停留。</span>
+		<span>因此嬰兒、兒童寫真可以為寶寶紀錄每個成長階段，也是送給寶寶最好的一份禮物。</span>
 		</h2>
 	</div>
 

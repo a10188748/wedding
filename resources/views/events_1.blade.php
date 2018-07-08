@@ -23,7 +23,9 @@
 			@foreach ($weddings as $wedding)
 			<div class="col-lg-4 col-md-6 col-sm-12 evendev">
 				<div class="evendev-img">
-					<img src="{{$wedding->img_path}}"/>
+					<a href="gallery?event=wedding&id={{$wedding->id or ''}}">
+						<img src="{{$wedding->img_path}}"/>
+					</a>
 				</div>
 				<div class="evendev-section">
 					<section>

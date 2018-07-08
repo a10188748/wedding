@@ -33,7 +33,8 @@ $( document ).ready(function() {
  			// console.log(values[value]['body']);
  			tottext = '<div class="col-lg-4 col-md-6 col-sm-12 evendev">';
  			tottext += '<div class="evendev-img">';
- 			tottext += '<img src="'+values[value]["img_path"]+'"/></div>';
+ 			tottext += '<a href="gallery?event='+window.event+'&id='+values[value]["id"]+'">';
+ 			tottext += '<img src="'+values[value]["img_path"]+'"/></a></div>';
  			tottext += '<div class="evendev-section"><section><div><header>';
  			tottext += '<h3>'+values[value]["img_header"]+'</h3></header></div>';
  			tottext +='<div class="evendev-section-body">';

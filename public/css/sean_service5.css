@@ -1,6 +1,9 @@
 body {
 	background-color: #F6F6F6 !important;
 }
+span {
+	color: #6c6c6c;
+}
 .copywriting {
 	padding-top: 100px;
 }

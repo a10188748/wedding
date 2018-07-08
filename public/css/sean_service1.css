@@ -5,7 +5,9 @@ article {
 	background-color: #fff;
 	margin-bottom: 20px;
 }
-
+span {
+	color: #6c6c6c;
+}
 .copywriting {
 	padding-top: 100px;
 }
