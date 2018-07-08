@@ -1,8 +1,8 @@
 @extends('layout')
-@section('title', '成果展|海外婚紗')
+@section('title', '成果展|孕之寫真')
 @section('content')
 @section('require')
-<script>window.event = 'overwedding'</script>
+<script>window.event = 'pregnancy'</script>
 <script type="text/javascript" src="js/sean_newevent.js"></script>
 <link href="css/sean_overwedding.css" type="text/css" rel="stylesheet" media="all">
 @endsection
@@ -20,29 +20,29 @@
 				<span>{{$copywrite[0]->body4}}</span>
 				<span>{{$copywrite[0]->body5}}</span>
 			</h2>
-		@foreach ($overweddings as $overwedding)
+		@foreach ($pregnancys as $pregnancy)
 		<div class="col-lg-4 col-md-6 col-sm-12 evendev">
 			<div class="evendev-img">
-				<img src="{{$overwedding->img_path}}"/>
+				<img src="{{$pregnancy->img_path}}"/>
 			</div>
 			<div class="evendev-section">
 				<section>
 				<div>
 					<header>
-						<h3>{{$overwedding->img_header}}</h3>
+						<h3>{{$pregnancy->img_header}}</h3>
 					</header>
 				</div>
 				<div class="evendev-section-body">
-					<body>{{$overwedding->img_body}}</body>
+					<body>{{$pregnancy->img_body}}</body>
 				</div>
 				<div class="evendev-section-footer">
-					<footer>{{$overwedding->img_footer}}</footer>
+					<footer>{{$pregnancy->img_footer}}</footer>
 				</div>
 					
 				</section>
 			</div>
 			<div class="evendev-button">
-				<input type="button" value="details" onclick="javascript:location.href='gallery?event=overwedding&id={{$overwedding->id}}'">
+				<input type="button" value="details" onclick="javascript:location.href='gallery?event=pregnancy&id={{$pregnancy->id}}'">
 			</div>
 		</div>
 		@endforeach

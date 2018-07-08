@@ -26,12 +26,7 @@
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header page-scroll">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Events</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+						
 						<h1><a class="navbar-brand" href="/">阿昌幸福影像工坊</a></h1>
 					</div> 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,25 +37,29 @@
 							<li><a class="hvr-sweep-to-right" href="/">首頁</a></li>
 							<li><a class="hvr-sweep-to-right" href="about">關於我</a></li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">WORK作品總覽<b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">SERVICE服務說明<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a class="hvr-sweep-to-right" href="events_1">婚禮紀錄</a></li>
+									<li><a class="hvr-sweep-to-right" href="service_1">婚禮紀錄</a></li>
 
-									<li><a class="hvr-sweep-to-right" href="events_3">自助婚紗</a></li>
-									<li><a class="hvr-sweep-to-right" href="events_3">孕之寫真</a></li>	<li><a class="hvr-sweep-to-right" href="events_5">嬰兒、親子、兒童寫真</a></li>
+									<li><a class="hvr-sweep-to-right" href="service_2">自助婚紗</a></li>
+									<li><a class="hvr-sweep-to-right" href="service_3">海外婚紗</a></li>
+									<li><a class="hvr-sweep-to-right" href="service_4">孕之寫真</a></li>	<li><a class="hvr-sweep-to-right" href="service_5">嬰兒、親子、兒童寫真</a></li>
 									
 
 								</ul>
 							</li>
-							<!-- <li class="dropdown">
-								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">價目表<b class="caret"></b></a>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle hvr-sweep-to-right" data-hover="Pages" data-toggle="dropdown">WORK作品總覽<b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a class="hvr-sweep-to-right" href="events">婚禮</a></li>
-									<li><a class="hvr-sweep-to-right" href="events">寶寶</a></li>
-									<li><a class="hvr-sweep-to-right" href="events">派對慶生</a></li>
+									<li><a class="hvr-sweep-to-right" href="events_1">婚禮紀錄</a></li>
+
+									<li><a class="hvr-sweep-to-right" href="events_2">自助婚紗</a></li>
+									<li><a class="hvr-sweep-to-right" href="events_3">海外婚紗</a></li>
+									<li><a class="hvr-sweep-to-right" href="events_4">孕之寫真</a></li>	<li><a class="hvr-sweep-to-right" href="events_5">嬰兒、親子、兒童寫真</a></li>
+									
+
 								</ul>
-							</li> -->
-							<li><a class="hvr-sweep-to-right" href="service">服務與價格</a></li>
+							</li>
 							<li><a class="hvr-sweep-to-right" href="contact">表單預約</a></li>
 						</ul>
 					</div>
@@ -74,7 +73,7 @@
 	<div class="footer-top">
 		<div class="container">
 			<div class="col-md-4 foot-left">
-				<h3>關於ＸＸＸ</h3>
+				<h3>阿昌幸福影像工坊</h3>
 			
 				<p>文案簡單介紹</p>
 			</div>
@@ -88,7 +87,7 @@
 						</div>
 						<div class="contact-btm">
 							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<p>+456 123 7890</p>
+							<p>手機：0905-168-503(台南，阿昌攝影師)</p>
 						<div class="contact-btm">
 						</div>
 							<span class="fa fa-envelope-o" aria-hidden="true"></span>

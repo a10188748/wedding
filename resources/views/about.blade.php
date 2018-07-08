@@ -9,7 +9,7 @@
 <!-- about -->
 	<div class="about">
 		<div class="container">
-		<h2 class="heading-agileinfo">關於ＸＸＸ<span>簡單介紹文字</span></h2>
+		<h2 class="heading-agileinfo">關於阿昌幸福影像工坊<span>您好，我是南部婚攝阿昌，隸屬影像寫真、創作的個人工作室。</span></h2>
 			<div class="about-grids-1">
 				<div class="col-md-6 wthree-about-left">
 					<div class="wthree-about-left-info">
@@ -18,7 +18,7 @@
 				</div>
 				<div class="col-md-6 agileits-about-right">
 					<h5>{{$about->title}}</h5>
-					<p>{{$about->body}} 
+					<p>在人生過程中每個畫面皆有感人的地方，身為一個影像創作者與婚禮紀錄者，我喜歡把這些感人的情緒畫面給拍攝下來，捕捉現場的真實情感與氛圍，留存這最精彩的瞬間。然而自然互動、唯美畫面與雄偉大景婚紗風格也是阿昌擅長的美學構圖視角。 
 					<span>{{$about->foot}}</span>
 					</p>
 				</div>

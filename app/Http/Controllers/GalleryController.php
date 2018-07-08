@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\EventWedding;
 use App\EventBaby;
-use App\EventParty;
+use App\EventSelfWedding;
+use App\EventOverWedding;
+use App\Eventpregnancy;
 
 class GalleryController extends Controller
 {
@@ -31,13 +33,21 @@ class GalleryController extends Controller
                     ->offset($tag)->limit(9)->get();
 					 $variable = $wedding;
 				break;
+			case 'selfwedding':
+				$selfwedding = EventSelfWedding::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+					 $variable = $selfwedding;
+				break;
+			case 'overwedding':
+				$overwedding = EventOverWedding::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+					 $variable = $overwedding;
+				break;
+			case 'pregnancy':
+				$pregnancy = EventPregnancy::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+					 $variable = $pregnancy;
+				break;
 			case 'baby':
 				$baby = EventBaby::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
 					 $variable = $baby;
-				break;
-			case 'party':
-				$paty = EventParty::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
-					 $variable = $party;
 				break;
 			default:
 					return null;

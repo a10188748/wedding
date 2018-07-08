@@ -1,0 +1,42 @@
+body {
+	background-color: #F6F6F6 !important;
+}
+.copywriting {
+	padding-top: 100px;
+}
+.title {
+	padding-top: 10px;
+}
+.block {
+	padding-top: 10px;
+	height: 700px;
+	
+}
+.program {
+	border:2px #BC9B5D solid;
+	height: 100%;
+}
+.program h3{
+	padding-top: 10px;
+	text-align:center;
+}
+.program h4 {
+	padding: 10px 0 0 10px;
+}
+.program span {
+	display:block;
+	margin-top:1px; 
+}
+.program p {
+	padding: 10px 0 0 30px;
+}
+.remark {
+	padding-top: 50px;
+}
+.remark p {
+	padding: 10px 0 0 30px;
+}
+.remark span {
+	display:block;
+	margin-top:1px; 
+}

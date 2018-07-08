@@ -1,8 +1,8 @@
 @extends('layout')
-@section('title', '成果展|海外婚紗')
+@section('title', '成果展|自助婚紗')
 @section('content')
 @section('require')
-<script>window.event = 'overwedding'</script>
+<script>window.event = 'selfwedding'</script>
 <script type="text/javascript" src="js/sean_newevent.js"></script>
 <link href="css/sean_overwedding.css" type="text/css" rel="stylesheet" media="all">
 @endsection
@@ -20,33 +20,33 @@
 				<span>{{$copywrite[0]->body4}}</span>
 				<span>{{$copywrite[0]->body5}}</span>
 			</h2>
-		@foreach ($overweddings as $overwedding)
-		<div class="col-lg-4 col-md-6 col-sm-12 evendev">
-			<div class="evendev-img">
-				<img src="{{$overwedding->img_path}}"/>
-			</div>
-			<div class="evendev-section">
-				<section>
-				<div>
-					<header>
-						<h3>{{$overwedding->img_header}}</h3>
-					</header>
+			@foreach ($selfweddings as $selfwedding)
+			<div class="col-lg-4 col-md-6 col-sm-12 evendev">
+				<div class="evendev-img">
+					<img src="{{$selfwedding->img_path}}"/>
 				</div>
-				<div class="evendev-section-body">
-					<body>{{$overwedding->img_body}}</body>
+				<div class="evendev-section">
+					<section>
+					<div>
+						<header>
+							<h3>{{$selfwedding->img_header or ''}}</h3>
+						</header>
+					</div>
+					<div class="evendev-section-body">
+						<body>{{$selfwedding->img_body or ''}}</body>
+					</div>
+					<div class="evendev-section-footer">
+						<footer>{{$selfwedding->img_footer or ''}}</footer>
+					</div>
+						
+					</section>
 				</div>
-				<div class="evendev-section-footer">
-					<footer>{{$overwedding->img_footer}}</footer>
+				<div class="evendev-button">
+					<input type="button" value="details" onclick="javascript:location.href='gallery?event=selfwedding&id={{$selfwedding->id or ''}}'">
 				</div>
-					
-				</section>
 			</div>
-			<div class="evendev-button">
-				<input type="button" value="details" onclick="javascript:location.href='gallery?event=overwedding&id={{$overwedding->id}}'">
-			</div>
+			@endforeach
 		</div>
-		@endforeach
-				
 	</div>
 </body> 
 <!-- //bootstrap-modal-pop-up --> 

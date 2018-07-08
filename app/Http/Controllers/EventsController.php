@@ -5,29 +5,50 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\EventWedding;
 use App\EventBaby;
-use App\EventParty;
+use App\EventOverWedding;
+use App\EventSelfWedding;
+use App\EventPregnancy;
+use App\EventCopywrite;
 
 class EventsController extends Controller
 {
     protected function index(){
-    	echo 1111;exit;
+    	// echo 1111;exit;	
 	}
 
 	protected function wedding(){
-
+		$copywrite = $this->get_copywrite('1');
 		$values = $this->get_values('wedding',0);
-		
-		
-		// print_r($values);exit;
-		return view('events_1',['weddings' => $values]);
+		return view('events_1',['weddings' => $values,
+								'copywrite' => $copywrite]);
+	}
+
+	protected function selfwedding(){
+		$copywrite = $this->get_copywrite('2');
+		$values = $this->get_values('selfwedding',0);
+		return view('events_2',['selfweddings' => $values,
+								'copywrite' => $copywrite]);
+	}
+
+	protected function overwedding(){
+		$copywrite = $this->get_copywrite('3');
+		$values = $this->get_values('overwedding',0);
+		return view('events_3',['overweddings' => $values,
+								'copywrite' => $copywrite]);
+	}
+
+	protected function pregnancy(){
+		$copywrite = $this->get_copywrite('4');
+		$values = $this->get_values('pregnancy',0);
+		return view('events_4',['pregnancys' => $values,
+								'copywrite' => $copywrite]);
 	}
 
 	protected function baby(){
-		return view('events_2');
-	}
-
-	protected function party(){
-		return view('events_3');
+		$copywrite = $this->get_copywrite('5');
+		$values = $this->get_values('baby',0);
+		return view('events_5',['babys' => $values,
+								'copywrite' => $copywrite]);
 	}
 
 	public function get_event(Request $request){
@@ -45,23 +66,29 @@ class EventsController extends Controller
 				$wedding = EventWedding::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
 					 $variable = $wedding;
 				break;
+			case 'selfwedding':
+			$selfwedding = EventSelfWedding::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+				 $variable = $selfwedding;
+				break;
+			case 'overwedding':
+				$overwedding = EventOverWedding::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+					 $variable = $overwedding;
+				break;
+			case 'pregnancy':
+			$pregnancy = EventPregnancy::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
+				 $variable = $pregnancy;
+				break;
 			case 'baby':
 				$baby = EventBaby::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
 					 $variable = $baby;
-				break;
-			case 'party':
-				$paty = EventParty::where('status', 1)->orderBy('id', 'desc')->offset($tag)->limit(9)->get();
-					 $variable = $party;
 				break;
 			default:
 					return null;
 				break;
 		}
-// print_r($variable);exit;
 		foreach ($variable as $key => $value) {
 			if($value->img_path != ""){
 				$variable[$key]->img_path = '/storage/' . $value->img_path;
-			
 			}
 			else
 			{
@@ -69,5 +96,9 @@ class EventsController extends Controller
 			}
 		}
 		return $variable;
+	}
+	protected function get_copywrite($id) {
+		$copywrite = EventCopywrite::where('id', $id)->get();
+		return $copywrite;
 	}
 }

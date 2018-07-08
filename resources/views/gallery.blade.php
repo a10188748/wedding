@@ -11,13 +11,13 @@
 			<div class="gallery-grids">
 				@foreach ($alldata[0]['child_img_path'] as $data)
 				<!-- {{print_r($data)}} -->
-					<div class="col-md-12 gallery-grid">
+					<div class="col-md-12 col-md-12 col-sm-12">
 						<div class="grid">
 							<figure class="effect-apollo">
-								<a class="example-image-link" href="{{$data}}" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
+								<a class="example-image-link" href="{{$data}}" data-lightbox="example-set" data-title="">
 									<img src="{{$data}}" alt="" />
 									<figcaption>
-										<p>Proin vitae luctus dui, sit amet ultricies leo</p>
+										<p>阿昌幸福影像工坊</p>
 									</figcaption>	
 								</a>
 							</figure>

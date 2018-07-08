@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+/*@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);*/
 /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -60,11 +60,11 @@ body a:focus {
 }
 h1 a.navbar-brand {
     font-size: 44px;
-    color: #BC9B5D !important;
+    color: #FFFFFF !important;
     text-transform: capitalize;
     letter-spacing: 1px;
-    font-family: 'cwTeXYen','Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-family:細明體, "Times New Roman", Georgia, serif, "Josefin Sans", sans-serif;
+    font-weight: 400;
 }
 nav.navbar.navbar-default.navbar-fixed-top {
   background: rgba(0, 0, 0, 0.71);
@@ -1054,7 +1054,7 @@ span {
     -ms-border-radius: 50%;--*/
 }
 .callbacks_here a:after{
-       background:#ff0a80;
+       background:#a40035;
 }
 /*-- //slider --*/
 
@@ -2909,12 +2909,12 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 		text-align: center;
 	}
 	.navbar-default .navbar-toggle {
-		    border-color: #ff0a80;
-            background: #ff0a80;
+		    border-color: #a40035;
+            background: #a40035;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		     border-color: #ff0a80;
-            background: #ff0a80;
+		     border-color: #a40035;
+            background: #a40035;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #fff;
