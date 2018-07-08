@@ -7,7 +7,7 @@ use App\EventWedding;
 use App\EventBaby;
 use App\EventSelfWedding;
 use App\EventOverWedding;
-use App\Eventpregnancy;
+use App\EventPregnancy;
 
 class GalleryController extends Controller
 {
